@@ -3,7 +3,6 @@ import Player from '../components/Player';
 import Header from '../components/Header';
 import AddPlayerForm from '../components/AddPlayerForm';
 
-
 export default class Scoreboard extends Component {
   
   state = {
@@ -20,9 +19,9 @@ export default class Scoreboard extends Component {
         name: 'Alena Holligan',
         score: 50,
       },
-    ],
-  }
-
+    ]
+  };
+  
   onScoreChange = (index, delta) => {
     this.state.players[index].score += delta;
     this.setState(this.state);
