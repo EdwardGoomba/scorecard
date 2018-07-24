@@ -24,19 +24,17 @@ Clone the repo
 git clone https://github.com/EdwardGoomba/scorecard.git
 ```
 
-Run npm install
+Run yarn install
 
 ```
-npm install
+yarn install
 ```
 
-Run npm start
+Run yarn start
 
 ```
-npm start
+yarn start
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## License
 
