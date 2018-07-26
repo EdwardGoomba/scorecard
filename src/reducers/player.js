@@ -1,4 +1,4 @@
-import * as PlayerActionTypes from '../actions/player'
+import * as PlayerActionTypes from '../actions/playerTypes'
 
 const initialState = [
   {
@@ -28,6 +28,7 @@ export default function Player(state=initialState, action) {
 
     case PlayerActionTypes.REMOVE_PLAYER:
     return [
+      // Concat two arrays, up to player, starting after player: essentially removing player
       ...state.slice(0, action.index),
       ...state.slice(action.index +1)
     ]
