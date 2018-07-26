@@ -5,7 +5,6 @@ import * as PlayerActionCreators from '../actions/player'
 import Player from '../components/Player'
 import Header from '../components/Header'
 import AddPlayerForm from '../components/AddPlayerForm'
-import { connect } from 'net';
 
 class Scoreboard extends Component {
   
