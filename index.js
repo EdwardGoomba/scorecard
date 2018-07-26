@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Proivder } from 'react-redux'
+import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import PlayerReducer from './src/reducers/player'
 import Scoreboard from './src/containers/Scoreboard'
