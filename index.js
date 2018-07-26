@@ -12,6 +12,6 @@ const store = createStore(
 render(
   <Provider store={store}>
     <Scoreboard />
-  </ Provider>,
+  </Provider>,
   document.getElementById('root')
 )
