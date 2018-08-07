@@ -5,6 +5,7 @@ import * as PlayerActionCreators from '../actions/player'
 import Player from '../components/Player'
 import Header from '../components/Header'
 import AddPlayerForm from '../components/AddPlayerForm'
+import PlayerDetail from '../components/PlayerDetail'
 
 class Scoreboard extends Component {
   
@@ -40,7 +41,7 @@ class Scoreboard extends Component {
       <div className="scoreboard">
         <Header players={players} />
         <div className="players">
-          { playerComponents }
+          {playerComponents}
         </div>
         <AddPlayerForm addPlayer={addPlayer} />
         <div className='player-detail'>
